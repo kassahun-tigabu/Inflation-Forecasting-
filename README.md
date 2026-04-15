@@ -1,5 +1,5 @@
 
-## Project Readme: CPI Forecasting using Recurrent Neural Networks (RNNs)
+##  CPI Forecasting using Recurrent Neural Networks (RNNs)
 
 ### 1. Project Overview
 
@@ -121,3 +121,5 @@ The following files and visualizations are saved in the `/content/drive/MyDrive/
 *   `baseline_model_summary.txt`: Summary of the baseline model.
 *   `step4_summary.txt`: Summary of the improved model and tuning process.
 *   `FINAL_PROJECT_SUMMARY.txt`: Overall project summary.
+
+*   By KASSAHUN 
