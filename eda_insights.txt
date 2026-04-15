@@ -1,0 +1,8 @@
+Data Quality: ✓ No missing values after cleaning
+Temporal Range: ✓ 1212 months from 1913 to 2014
+Inflation Range: ✓ -3.2% to 5.9%
+Stationarity: ✓ Inflation is stationary (good for RNN)
+Recommended Window: Based on ACF/PACF: 12 or 24 months
+Seasonality: ✓ Weak but present seasonal patterns
+Volatility Clusters: ✓ Periods of high and low volatility visible
+Historical Events: ✓ Great Depression, WWII, 1970s inflation, 2008 crisis visible

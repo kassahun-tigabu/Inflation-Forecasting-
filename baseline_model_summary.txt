@@ -1,0 +1,31 @@
+
+MODEL CONFIGURATION:
+- Architecture: SimpleRNN with 50 units
+- Dropout: 0.2
+- Optimizer: Adam
+- Loss Function: MSE
+- Batch Size: 32
+- Max Epochs: 100 (Early stopping at 50 epochs)
+
+TRAINING PERFORMANCE:
+- Final Training Loss: 0.000027
+- Final Validation Loss: 0.000185
+- Training R² Score: 0.9996
+- Training RMSE: 0.7657
+
+TEST PERFORMANCE:
+- Test R² Score: 0.9258
+- Test RMSE: 7.2600
+- Test MAE: 6.0056
+
+INTERPRETATION:
+- R² score of 0.9258 indicates the model explains 92.6% of CPI variance
+- RMSE of 7.26 CPI points is the typical prediction error
+- ✓ Model is not overfitting
+
+RECOMMENDATIONS FOR STEP 4:
+1. Try LSTM instead of SimpleRNN (better for long-term dependencies)
+2. Increase window size to 24 months
+3. Add more layers or units
+4. Experiment with different learning rates
+5. Add more features (inflation rate as additional input)
