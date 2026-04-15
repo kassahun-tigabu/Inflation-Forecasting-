@@ -1,0 +1,7 @@
+units,dropout,learning_rate,layers,RMSE,R2,model
+64,0.2,0.001,1,1.1837325057048453,0.9980277066704277,"<Sequential name=sequential_6, built=True>"
+128,0.2,0.001,1,1.2021402176490052,0.9979658891700309,"<Sequential name=sequential_7, built=True>"
+64,0.3,0.001,1,1.4095578761706318,0.9972034010912953,"<Sequential name=sequential_8, built=True>"
+64,0.2,0.0005,1,2.2521017922506927,0.9928609505365623,"<Sequential name=sequential_9, built=True>"
+64,0.2,0.001,2,1.726466898435813,0.9958045275782632,"<Sequential name=sequential_10, built=True>"
+32,0.2,0.001,1,3.690793362440818,0.9808263930450084,"<Sequential name=sequential_11, built=True>"
